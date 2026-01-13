@@ -1,7 +1,7 @@
 # scVI_Reproducibility
  Scvi-tools versions < 1.0.0 automatically sets the global seed to 0 (as shown in the verbose section in the console) and yields reproducible results.
  
- Scvi-tools versions >= 1.0.0 installed from [scVI] (https://docs.scvi-tools.org/en/stable/installation.html) tools installation guide do not automatically set a fixed global seed and instead generate random seed every run.
+ Scvi-tools versions >= 1.0.0 installed from [scVI](https://docs.scvi-tools.org/en/stable/installation.html) tools installation guide do not automatically set a fixed global seed and instead generate random seed every run.
  
  Running integration with scvi-tools versions >= 1.0.0 without manually setting scvi global seed will yield a random seed of 14 digits (this seed will reset with every run and/or everytime you restart/open a new session in R). 
  
